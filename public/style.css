@@ -1,0 +1,160 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f5f5f5;
+  color: #333;
+  line-height: 1.6;
+}
+
+header {
+  background-color: #006400;
+  color: white;
+  padding: 2rem 0;
+  text-align: center;
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+}
+
+main {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+}
+
+.container {
+  background: white;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  color: #006400;
+  margin-bottom: 1.5rem;
+  font-size: 1.8rem;
+}
+
+h3 {
+  color: #333;
+  margin-top: 1.5rem;
+  margin-bottom: 1rem;
+  font-size: 1.3rem;
+}
+
+.instructions {
+  margin-bottom: 2rem;
+}
+
+.instructions ol {
+  margin-left: 1.5rem;
+}
+
+.instructions li {
+  margin-bottom: 0.8rem;
+}
+
+code {
+  background-color: #f4f4f4;
+  padding: 2px 6px;
+  border-radius: 3px;
+  font-family: 'Courier New', monospace;
+  color: #d63384;
+}
+
+.form-container {
+  margin-bottom: 2rem;
+  padding: 1.5rem;
+  background-color: #f9f9f9;
+  border-radius: 5px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+label {
+  font-weight: bold;
+  color: #555;
+}
+
+input[type="text"] {
+  padding: 0.8rem;
+  border: 2px solid #ddd;
+  border-radius: 4px;
+  font-size: 1rem;
+  transition: border-color 0.3s;
+}
+
+input[type="text"]:focus {
+  outline: none;
+  border-color: #006400;
+}
+
+button {
+  padding: 0.8rem 1.5rem;
+  background-color: #006400;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #004d00;
+}
+
+.output {
+  background-color: #f9f9f9;
+  padding: 1.5rem;
+  border-radius: 5px;
+  border-left: 4px solid #006400;
+}
+
+.output pre {
+  background-color: #2d2d2d;
+  color: #f8f8f8;
+  padding: 1rem;
+  border-radius: 4px;
+  overflow-x: auto;
+}
+
+footer {
+  text-align: center;
+  padding: 2rem 0;
+  color: #666;
+}
+
+footer a {
+  color: #006400;
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 600px) {
+  h1 {
+    font-size: 2rem;
+  }
+  
+  h2 {
+    font-size: 1.5rem;
+  }
+  
+  .container {
+    padding: 1.5rem;
+  }
+}
